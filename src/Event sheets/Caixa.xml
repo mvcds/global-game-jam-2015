@@ -14,6 +14,7 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="185757133383009" title="Caixa Livre" />
         <event-block sid="2800152210744521">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="438570921978875" type="8Overlap">
@@ -87,6 +88,149 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-group description="" sid="2841729676682032" title="Caixa Uma Direção" />
+        <event-block sid="8216785701007932">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="9232042314118813" type="8Overlap">
+                    <param id="0" name="Object">14Caixa1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="4" name="Set max speed" sid="2172484448255579" type="14Caixa1">
+                    <param id="0" name="Max Speed">200</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7213202110530389">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="4885454004000021" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="6649539964272962" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="840090360700941" type="14Caixa1">
+                            <param id="0" name="Instance variable">Direita</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="3590174451433921" type="14Caixa1">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4880912087284946">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="2907469691384986" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="1743901192105539" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="2934125470416945" type="14Caixa1">
+                            <param id="0" name="Instance variable">Esquerda</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="7904412079396232" type="14Caixa1">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2226308251128579">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="4233208594613565" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="5213359089493558" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="6729081813704693" type="14Caixa1">
+                            <param id="0" name="Instance variable">Baixo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="876756287630469" type="14Caixa1">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6568643684043028">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="2874562250888657" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="2716830692146071" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="8289346146343289" type="14Caixa1">
+                            <param id="0" name="Instance variable">Cima</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="6538880738972175" type="14Caixa1">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9891570144156514">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="315488822973294" type="14Caixa1">
+                    <param id="0" name="Instance variable">Direita</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="2368967241780235" type="14Caixa1">
+                    <param id="0" name="Object">15SetaD</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9703643964181052">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="9856361406620918" type="14Caixa1">
+                    <param id="0" name="Instance variable">Esquerda</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="5633162001048678" type="14Caixa1">
+                    <param id="0" name="Object">15SetaE</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3574302504638291">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="7845059594829852" type="14Caixa1">
+                    <param id="0" name="Instance variable">Cima</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="7607106430987404" type="14Caixa1">
+                    <param id="0" name="Object">15SetaC</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7086705482230749">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="3702988781558786" type="14Caixa1">
+                    <param id="0" name="Instance variable">Baixo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="9839771991070994" type="14Caixa1">
+                    <param id="0" name="Object">15SetaB</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
