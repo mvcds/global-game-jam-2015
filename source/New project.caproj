@@ -178,6 +178,9 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9340825725516712" speed="5">
                     <frame duration="1" hotspotX="0.0105263" hotspotY="0.571429" original-source="C:\Users\Yara\Pictures\GGJ\subbar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="Tutorial" sid="4948819764022861">
             <plugin id="Button" />
         </object-type>
