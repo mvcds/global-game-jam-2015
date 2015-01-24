@@ -12,6 +12,10 @@
                     <param id="0" name="X">7Jogador.X</param>
                     <param id="1" name="Y">7Jogador.Y</param>
                 </action>
+                <action id="-9" name="Destroy" sid="8525323844260963" type="15SetaC" />
+                <action id="-9" name="Destroy" sid="2534015350229767" type="15SetaB" />
+                <action id="-9" name="Destroy" sid="5625978082664384" type="15SetaE" />
+                <action id="-9" name="Destroy" sid="8381046565746583" type="15SetaD" />
             </actions>
         </event-block>
         <event-group description="" sid="185757133383009" title="Caixa Livre" />
