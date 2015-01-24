@@ -7,3 +7,4 @@
 /trials/Unity/obj
 /trials/Unity/Library/*.db
 /trials/Unity/Library/metadata
+*.xml
