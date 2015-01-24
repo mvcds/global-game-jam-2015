@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game</name>
     <events>
+        <include>Spawner</include>
         <include>Personagem</include>
         <include>Inimigo</include>
         <include>Caixa</include>
