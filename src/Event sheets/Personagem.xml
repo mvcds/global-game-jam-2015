@@ -3,10 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Personagem</name>
     <events>
-        <event-group description="" sid="280542733392419" title="Personagem" />
-        <event-block sid="5359516628871897">
+        <event-block sid="7833910121507853">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="1269100200662861" type="System" />
+                <condition id="-18" name="On created" sid="4430015890205385" type="1Personagem" />
             </conditions>
             <actions>
                 <action behavior="Pathfinding" id="5" name="Add obstacle" sid="9828996134597686" type="1Personagem">
@@ -19,9 +18,10 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3842335780084444">
+        <event-block any="1" sid="4434216412660602">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="7603335341109109" type="System">
+                <condition id="-18" name="On created" sid="5978824807996962" type="1Personagem" />
+                <condition id="-6" name="Every X seconds" sid="5183483804133249" type="System">
                     <param id="0" name="Interval (seconds)">0.5</param>
                 </condition>
             </conditions>
@@ -56,7 +56,7 @@
             <conditions>
                 <condition id="-7" name="Compare instance variable" sid="1837481819469749" type="1Personagem">
                     <param id="0" name="Instance variable">vida</param>
-                    <param id="1" name="Comparison">0</param>
+                    <param id="1" name="Comparison">3</param>
                     <param id="2" name="Value">0</param>
                 </condition>
             </conditions>

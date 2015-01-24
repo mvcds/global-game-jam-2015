@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Caixa</name>
     <events>
-        <event-group description="" sid="185757133383009" title="Mov. Caixa" />
         <event-block sid="8513737697764018">
             <conditions>
                 <condition id="-1" name="Every tick" sid="2821063764896246" type="System" />

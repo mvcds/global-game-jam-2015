@@ -20,15 +20,6 @@
                     <param id="0" name="Instance variable">InWidth</param>
                     <param id="1" name="Value">Self.Width</param>
                 </action>
-                <action id="-6" name="Set height" sid="2087329364151743" type="BarraCheia">
-                    <param id="0" name="Height">Self.Height/2</param>
-                </action>
-                <action id="-6" name="Set height" sid="9879900337842505" type="BarraBorda">
-                    <param id="0" name="Height">Self.Height/2</param>
-                </action>
-                <action id="-6" name="Set height" sid="1383714636949626" type="BarraFundo">
-                    <param id="0" name="Height">Self.Height/2</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="5573612998240108">

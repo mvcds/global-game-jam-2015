@@ -3,45 +3,26 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Inimigo</name>
     <events>
-        <event-group description="" sid="4391906225127444" title="Inimigo" />
-        <event-block sid="9333824364873866">
+        <event-block sid="4114235158056389">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="1748272099750646" type="System" />
+                <condition id="-18" name="On created" sid="668961103813972" type="4Inimigo" />
             </conditions>
             <actions>
-                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="6535860219477091" type="4Inimigo">
+                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="5116269824974178" type="4Inimigo">
                     <param id="0" name="Obstacle">2Caixa</param>
                 </action>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="8921966871557181" type="4Inimigo" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="6082596371844596" type="4Inimigo">
-                    <param id="0" name="X">1Personagem.X</param>
-                    <param id="1" name="Y">1Personagem.Y</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="8523382019470955">
+        <event-block any="1" sid="2985640895179845">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="4637578897945598" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="3930485735450598" type="5Spawn">
-                    <param id="0" name="Object">4Inimigo</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2132099551784408">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="2369109488969827" type="System">
+                <condition id="-18" name="On created" sid="9655308444972276" type="4Inimigo" />
+                <condition id="-6" name="Every X seconds" sid="3542352433165558" type="System">
                     <param id="0" name="Interval (seconds)">0.5</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="4852866362881978" type="4Inimigo" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="7580894450725578" type="4Inimigo">
+                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="8921966871557181" type="4Inimigo" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="6082596371844596" type="4Inimigo">
                     <param id="0" name="X">1Personagem.X</param>
                     <param id="1" name="Y">1Personagem.Y</param>
                 </action>
@@ -69,131 +50,27 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="8007766519804629" title="InimigoArea" />
-        <event-block sid="7951328491283679">
+        <comment>Inimigos que atiram e seus projéteis</comment>
+        <event-block sid="8523209078069653">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="1543130269776115" type="System" />
+                <condition id="-18" name="On created" sid="366334391213804" type="11InimigoProjetil" />
             </conditions>
             <actions>
-                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="6744292342983235" type="9InimigoArea">
+                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="8975918942886412" type="11InimigoProjetil">
                     <param id="0" name="Obstacle">2Caixa</param>
                 </action>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="8568578187693534" type="9InimigoArea" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="964002836663292" type="9InimigoArea">
-                    <param id="0" name="X">1Personagem.X</param>
-                    <param id="1" name="Y">1Personagem.Y</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="7659730101688555">
+        <event-block any="1" sid="1973669381421429">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="963238603122474" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="4415608185339329" type="10SpawnArea">
-                    <param id="0" name="Object">9InimigoArea</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="8407837644609664">
-            <conditions>
-                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="9803347920760753" type="10SpawnArea">
-                    <param id="0" name="Object">1Personagem</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="2457192085735811" type="1Personagem">
-                    <param id="0" name="Instance variable">Detectado</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3538169180384725">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="1982381552103334" type="System">
+                <condition id="-18" name="On created" sid="8150520006358715" type="11InimigoProjetil" />
+                <condition id="-6" name="Every X seconds" sid="2883058001837729" type="System">
                     <param id="0" name="Interval (seconds)">0.5</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="7289970902451474" type="9InimigoArea" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="2560034508589588" type="9InimigoArea">
-                    <param id="0" name="X">1Personagem.X</param>
-                    <param id="1" name="Y">1Personagem.Y</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="6643460638807771">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="5208552986266779" type="1Personagem">
-                            <param id="0" name="Instance variable">Detectado</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="2544821190931262" type="Text">
-                            <param id="0" name="Text">&quot;Visto&quot;</param>
-                        </action>
-                        <action behavior="Pathfinding" id="1" name="Move along path" sid="301364054919261" type="9InimigoArea" />
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="4606332531348814">
-            <conditions>
-                <condition behavior="Pathfinding" id="5" name="On arrived" sid="1059280895836265" type="9InimigoArea" />
-            </conditions>
-            <actions>
-                <action behavior="Pathfinding" id="7" name="Set max speed" sid="4069095407944214" type="1Personagem">
-                    <param id="0" name="Speed">1Personagem.Pathfinding.MaxSpeed+2</param>
-                </action>
-                <action id="-12" name="Subtract from" sid="7324771560337793" type="1Personagem">
-                    <param id="0" name="Instance variable">vida</param>
-                    <param id="1" name="Value">10</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-group description="" sid="7305017235846885" title="InimigoProjetil" />
-        <event-block sid="9927263449495431">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="7521852395682026" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="4022027877200035" type="11InimigoProjetil">
-                    <param id="0" name="Obstacle">2Caixa</param>
-                </action>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="1380292837601523" type="11InimigoProjetil" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="495055038847403" type="11InimigoProjetil">
-                    <param id="0" name="X">1Personagem.X</param>
-                    <param id="1" name="Y">1Personagem.Y</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="1535734929246187">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="8507461635018753" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="1054849970483554" type="12SpawnProjetil">
-                    <param id="0" name="Object">11InimigoProjetil</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="8915328895584153">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="9665133998526229" type="System">
-                    <param id="0" name="Interval (seconds)">0.5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="7887006987296395" type="11InimigoProjetil" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="7837683473051238" type="11InimigoProjetil">
+                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="9444618207363069" type="11InimigoProjetil" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="1389305542334963" type="11InimigoProjetil">
                     <param id="0" name="X">1Personagem.X</param>
                     <param id="1" name="Y">1Personagem.Y</param>
                 </action>
@@ -213,38 +90,179 @@
                 <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="57362821847354" type="11InimigoProjetil">
                     <param id="0" name="Object">1Personagem</param>
                 </condition>
+                <condition id="-6" name="Every X seconds" sid="776210784510264" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
             </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="9172030920284952">
-                    <conditions>
-                        <condition id="-6" name="Every X seconds" sid="4768293070191617" type="System">
-                            <param id="0" name="Interval (seconds)">1.0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Spawn another object" sid="1770856341182152" type="11InimigoProjetil">
-                            <param id="0" name="Object">13Projetil</param>
-                            <param id="1" name="Layer">1</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
+            <actions>
+                <action id="0" name="Spawn another object" sid="1770856341182152" type="11InimigoProjetil">
+                    <param id="0" name="Object">13Projetil</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="3287471201853001">
+        <event-block sid="7924643566138211">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="4185693479990372" type="13Projetil">
+                <condition id="1" name="Is overlapping another object" sid="7732470960322076" type="13Projetil">
                     <param id="0" name="Object">1Personagem</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-12" name="Subtract from" sid="6321015508036312" type="1Personagem">
+                <action id="-12" name="Subtract from" sid="6485546716129279" type="1Personagem">
                     <param id="0" name="Instance variable">vida</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-9" name="Destroy" sid="6027407469471616" type="13Projetil" />
+                <action id="-9" name="Destroy" sid="5123586796666002" type="13Projetil" />
             </actions>
+        </event-block>
+        <comment>Inimigo Área</comment>
+        <event-block sid="7848201169503438">
+            <conditions>
+                <condition id="-18" name="On created" sid="1820686194331016" type="9InimigoArea" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="352022297148091" type="9InimigoArea">
+                    <param id="0" name="Obstacle">2Caixa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="5662370263081869">
+            <conditions>
+                <condition id="-18" name="On created" sid="7147579517178412" type="9InimigoArea" />
+                <condition id="-6" name="Every X seconds" sid="4872391496987562" type="System">
+                    <param id="0" name="Interval (seconds)">0.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="638371234143039" type="9InimigoArea" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="4090727968410994" type="9InimigoArea">
+                    <param id="0" name="X">1Personagem.X</param>
+                    <param id="1" name="Y">1Personagem.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1256567950108174">
+            <conditions>
+                <condition behavior="Pathfinding" id="0" name="On path found" sid="9910115468486501" type="9InimigoArea" />
+                <condition id="-8" name="Is boolean instance variable set" sid="5208552986266779" type="1Personagem">
+                    <param id="0" name="Instance variable">Detectado</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="1" name="Move along path" sid="1893302168117167" type="9InimigoArea" />
+            </actions>
+        </event-block>
+        <event-block sid="3367903287288281">
+            <conditions>
+                <condition behavior="Pathfinding" id="5" name="On arrived" sid="9974195531804041" type="9InimigoArea" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="7" name="Set max speed" sid="7343218132792033" type="1Personagem">
+                    <param id="0" name="Speed">1Personagem.Pathfinding.MaxSpeed+2</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="3196238965397266" type="1Personagem">
+                    <param id="0" name="Instance variable">vida</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>spawner</comment>
+        <event-block sid="676677287193582">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4628627710730515" type="System">
+                    <param id="0" name="Interval (seconds)">Spawner.segundos</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7470339978873533">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2482816880138749" type="Spawner">
+                            <param id="0" name="Instance variable">tipoinimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="6786397231999387" type="Spawner">
+                            <param id="0" name="Object">4Inimigo</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="5978699085770604" type="Spawner">
+                            <param id="0" name="Instance variable">inimigos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4809488717439437">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3105624739739888" type="Spawner">
+                            <param id="0" name="Instance variable">tipoinimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="9623028119047403">
+                            <conditions>
+                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="8746464938179207" type="Spawner">
+                                    <param id="0" name="Object">1Personagem</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="7287282649196881" type="Spawner">
+                                    <param id="0" name="Object">9InimigoArea</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9819869115409176" type="1Personagem">
+                                    <param id="0" name="Instance variable">Detectado</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-12" name="Subtract from" sid="3556243499342546" type="Spawner">
+                                    <param id="0" name="Instance variable">inimigos</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2144944047707121">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8038027110459084" type="Spawner">
+                            <param id="0" name="Instance variable">tipoinimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="3467907100291342" type="Spawner">
+                            <param id="0" name="Object">11InimigoProjetil</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="2766962170244518" type="Spawner">
+                            <param id="0" name="Instance variable">inimigos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3442645150323967">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3813428882714189" type="Spawner">
+                            <param id="0" name="Instance variable">inimigos</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="510693759754162" type="Spawner" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
