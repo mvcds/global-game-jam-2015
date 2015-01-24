@@ -46,7 +46,9 @@
                 <condition behavior="Pathfinding" id="5" name="On arrived" sid="448616229805286" type="1Personagem" />
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="7789566038278478" type="System" />
+                <action id="-43" name="Go to next/previous layout" sid="2332575574140929" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="581923324519381">
