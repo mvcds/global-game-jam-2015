@@ -176,7 +176,7 @@
                         <width>50</width>
                         <height>5</height>
                         <depth>0</depth>
-                        <hotspotX>0.02</hotspotX>
+                        <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -201,7 +201,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -241,7 +241,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -281,7 +281,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -321,7 +321,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -361,7 +361,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -401,7 +401,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -441,7 +441,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -481,7 +481,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -521,7 +521,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -561,7 +561,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -601,7 +601,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -641,7 +641,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -681,7 +681,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -721,7 +721,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -761,7 +761,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -801,7 +801,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -841,7 +841,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -881,7 +881,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -921,7 +921,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -961,7 +961,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1001,7 +1001,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1041,7 +1041,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1081,7 +1081,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1121,7 +1121,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1161,7 +1161,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1201,7 +1201,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1241,7 +1241,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1281,7 +1281,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1321,7 +1321,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1361,7 +1361,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1401,7 +1401,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1441,7 +1441,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1481,7 +1481,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1521,7 +1521,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1561,7 +1561,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1601,7 +1601,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1641,7 +1641,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1681,7 +1681,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1721,7 +1721,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1761,7 +1761,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1801,7 +1801,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1841,7 +1841,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1881,7 +1881,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1921,7 +1921,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -1961,7 +1961,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2001,7 +2001,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2041,7 +2041,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2081,7 +2081,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2121,7 +2121,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2161,7 +2161,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2201,7 +2201,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2241,7 +2241,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2281,7 +2281,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2321,7 +2321,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2361,7 +2361,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2401,7 +2401,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2441,7 +2441,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2481,7 +2481,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2521,7 +2521,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2561,7 +2561,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2601,7 +2601,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2641,7 +2641,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2681,7 +2681,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2721,7 +2721,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2761,7 +2761,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2801,7 +2801,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2841,7 +2841,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2881,7 +2881,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2921,7 +2921,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -2961,7 +2961,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3001,7 +3001,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3041,7 +3041,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3081,7 +3081,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3121,7 +3121,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3161,7 +3161,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3201,7 +3201,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3241,7 +3241,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3281,7 +3281,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3321,7 +3321,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3361,7 +3361,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3401,7 +3401,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3441,7 +3441,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3481,7 +3481,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3521,7 +3521,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3561,7 +3561,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3601,7 +3601,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3641,7 +3641,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3681,7 +3681,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3721,7 +3721,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3761,7 +3761,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3801,7 +3801,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3841,7 +3841,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3881,7 +3881,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3921,7 +3921,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4132,7 +4132,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4172,7 +4172,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4212,7 +4212,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4279,7 +4279,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4319,7 +4319,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4359,7 +4359,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4399,7 +4399,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4439,7 +4439,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4479,7 +4479,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4519,7 +4519,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4619,7 +4619,7 @@
                         <height>5</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>0.699999988</hotspotY>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4644,7 +4644,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4690,7 +4690,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4736,7 +4736,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4782,7 +4782,7 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>4 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
