@@ -10,7 +10,6 @@
     <unique-id>36uv9f0yxplh</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -18,8 +17,11 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -32,7 +34,6 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Menu Inicial</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -58,7 +59,8 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="vida" sid="4663171146269672" type="number" />
-                <instance-variable name="vidaMax" sid="5829776624861972" type="number" />
+                <instance-variable name="Detectado" sid="8447758208925202" type="boolean" />
+                <instance-variable name="vidaMax" sid="2882437750605689" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Pathfinding" sid="3251738259261982">
@@ -111,6 +113,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="5Spawn" sid="6568702193652698">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6886165331087697" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="6Parede" sid="2709232611213655">
             <plugin id="Sprite" />
             <behaviors>
@@ -151,65 +161,121 @@
         <object-type name="Keyboard" sid="7522995723415716">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Text" sid="1752379149130043">
+        <object-type name="Vida" sid="1752379149130043">
             <plugin id="Text" />
         </object-type>
-        <object-type name="HPFrame" sid="4958803234186393">
+        <object-type name="9InimigoArea" sid="1067095873301049">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="817193375027184">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="5463300720631186">
+                    <behavior id="LOS" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4987061072465503" speed="5">
-                    <frame duration="1" hotspotX="0.0190476" hotspotY="0.461538" original-source="C:\Users\Yara\Pictures\GGJ\frame.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="HPBar" sid="8467239044507836">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="InWidth" sid="9217843782112223" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2115286104693878" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.4" original-source="C:\Users\Yara\Pictures\GGJ\bar.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="HPSubBar" sid="8129434339983864">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9340825725516712" speed="5">
-                    <frame duration="1" hotspotX="0.0105263" hotspotY="0.571429" original-source="C:\Users\Yara\Pictures\GGJ\subbar.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Tutorial" sid="4948819764022861">
-            <plugin id="Button" />
-        </object-type>
-        <object-type name="menu_" sid="9967379250201004">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9466697705767294" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\menu_01.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Spawner" sid="9903790902553483">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="inimigos" sid="5970931834246369" type="number" />
-                <instance-variable name="segundos" sid="7816017702460746" type="number" />
-                <instance-variable name="inimigo" sid="8752928826564995" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9086103570138837" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8374736998785024" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Inimigo2" sid="3878684390449051">
+        <object-type name="10SpawnArea" sid="5999079803602056">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LineOfSight" sid="1457662128216037">
+                    <behavior id="LOS" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5488545752432952" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="7712869842693675">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="11InimigoProjetil" sid="985771741746697">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Movendo" sid="3067616255909753" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="8693687884663674">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="3319927458757631">
+                    <behavior id="LOS" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3810413845573257" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="12SpawnProjetil" sid="405940845737889">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2777016924462175" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5516602821642008" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="13Projetil" sid="4279517349682609">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="5084462038342762">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="3389031671720919">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1659212692167103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawner" sid="2210681936235043">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="inimigos" sid="3394350436657318" type="number" />
+                <instance-variable name="segundos" sid="9217447344872931" type="number" />
+                <instance-variable name="tipoinimigo" sid="1026898742177264" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8378648076252383" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BarraCheia" sid="8613926587750786">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="InWidth" sid="5081437741762317" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546057918514744" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.7" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BarraFundo" sid="3696406845234325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7343874537497225" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BarraBorda" sid="9646567344822307">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5769403690894763" speed="5">
+                    <frame duration="1" hotspotX="0.01" hotspotY="0.6" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -219,16 +285,14 @@
         <layout>FasePrototipo.xml</layout>
         <layout>Backup.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
-        <layout>Menu Inicial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
         <event-sheet>Game.xml</event-sheet>
         <event-sheet>Inimigo.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
-        <event-sheet>HUD.xml</event-sheet>
-        <event-sheet>Menu Inicial.xml</event-sheet>
         <event-sheet>Spawner.xml</event-sheet>
+        <event-sheet>HUD.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="45" />

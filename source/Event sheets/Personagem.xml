@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Personagem</name>
     <events>
+        <event-group description="" sid="280542733392419" title="Personagem" />
         <event-block sid="5359516628871897">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="1269100200662861" type="System" />
@@ -30,7 +31,7 @@
                     <param id="0" name="X">3Saida.X</param>
                     <param id="1" name="Y">3Saida.Y</param>
                 </action>
-                <action id="0" name="Set text" sid="9326523757041744" type="Text">
+                <action id="0" name="Set text" sid="9326523757041744" type="Vida">
                     <param id="0" name="Text">1Personagem.vida</param>
                 </action>
             </actions>
@@ -51,16 +52,16 @@
                 <action id="-26" name="Restart layout" sid="7789566038278478" type="System" />
             </actions>
         </event-block>
-        <event-block sid="3409602772657237">
+        <event-block sid="581923324519381">
             <conditions>
-                <condition id="-7" name="Compare instance variable" sid="1727208534235789" type="1Personagem">
+                <condition id="-7" name="Compare instance variable" sid="1837481819469749" type="1Personagem">
                     <param id="0" name="Instance variable">vida</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="4001916456726989" type="System" />
+                <action id="-26" name="Restart layout" sid="2353203388178733" type="System" />
             </actions>
         </event-block>
     </events>

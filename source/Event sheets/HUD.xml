@@ -3,51 +3,51 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>HUD</name>
     <events>
-        <event-block sid="9139469475583709">
+        <event-block sid="2609395173252519">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="2100783971158926" type="System" />
+                <condition id="-2" name="On start of layout" sid="4380769564658562" type="System" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="1018874424135735" type="HPBar">
-                    <param id="0" name="X">HPFrame.X</param>
-                    <param id="1" name="Y">HPFrame.Y</param>
+                <action id="-3" name="Set position" sid="1752155878514624" type="BarraCheia">
+                    <param id="0" name="X">BarraBorda.X</param>
+                    <param id="1" name="Y">BarraBorda.Y</param>
                 </action>
-                <action id="-3" name="Set position" sid="9319323781906201" type="HPSubBar">
-                    <param id="0" name="X">HPFrame.X</param>
-                    <param id="1" name="Y">HPFrame.Y</param>
+                <action id="-3" name="Set position" sid="6494254536269278" type="BarraFundo">
+                    <param id="0" name="X">BarraBorda.X</param>
+                    <param id="1" name="Y">BarraBorda.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="1277331537034574" type="HPBar">
+                <action id="-10" name="Set value" sid="2694343703328136" type="BarraCheia">
                     <param id="0" name="Instance variable">InWidth</param>
                     <param id="1" name="Value">Self.Width</param>
                 </action>
-                <action id="-6" name="Set height" sid="9164613118008198" type="HPBar">
+                <action id="-6" name="Set height" sid="2087329364151743" type="BarraCheia">
                     <param id="0" name="Height">Self.Height/2</param>
                 </action>
-                <action id="-6" name="Set height" sid="249033951841806" type="HPFrame">
+                <action id="-6" name="Set height" sid="9879900337842505" type="BarraBorda">
                     <param id="0" name="Height">Self.Height/2</param>
                 </action>
-                <action id="-6" name="Set height" sid="3680265444699163" type="HPSubBar">
+                <action id="-6" name="Set height" sid="1383714636949626" type="BarraFundo">
                     <param id="0" name="Height">Self.Height/2</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3949449583062977">
+        <event-block sid="5573612998240108">
             <conditions>
-                <condition id="-1" name="Every tick" sid="4087399084347121" type="System" />
+                <condition id="-1" name="Every tick" sid="9077660275500597" type="System" />
             </conditions>
             <actions>
-                <action id="-5" name="Set width" sid="271213523842101" type="HPBar">
+                <action id="-5" name="Set width" sid="7209445698834076" type="BarraCheia">
                     <param id="0" name="Width">1Personagem.vida&lt;=0 ? 0 : (Self.InWidth+(1Personagem.vida-1Personagem.vidaMax)*(Self.InWidth/1Personagem.vidaMax))</param>
                 </action>
-                <action id="-3" name="Set position" sid="5521996967885769" type="HPBar">
+                <action id="-3" name="Set position" sid="5474272077419621" type="BarraCheia">
                     <param id="0" name="X">1Personagem.X-20</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
-                <action id="-3" name="Set position" sid="6852342634666303" type="HPFrame">
+                <action id="-3" name="Set position" sid="8946101264965796" type="BarraBorda">
                     <param id="0" name="X">1Personagem.X-20</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
-                <action id="-3" name="Set position" sid="8716846526207516" type="HPSubBar">
+                <action id="-3" name="Set position" sid="6991495086066978" type="BarraFundo">
                     <param id="0" name="X">1Personagem.X-20</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
