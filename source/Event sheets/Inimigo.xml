@@ -3,38 +3,19 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Inimigo</name>
     <events>
-        <event-group description="" sid="4391906225127444" title="Inimigo" />
-        <event-block sid="9333824364873866">
+        <event-block any="1" sid="4639038280669993">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="1748272099750646" type="System" />
+                <condition id="-18" name="On created" sid="9373243730183172" type="4Inimigo" />
             </conditions>
             <actions>
-                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="6535860219477091" type="4Inimigo">
+                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="9566358013921187" type="4Inimigo">
                     <param id="0" name="Obstacle">2Caixa</param>
                 </action>
-                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="8921966871557181" type="4Inimigo" />
-                <action behavior="Pathfinding" id="0" name="Find path" sid="6082596371844596" type="4Inimigo">
-                    <param id="0" name="X">1Personagem.X</param>
-                    <param id="1" name="Y">1Personagem.Y</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="8523382019470955">
+        <event-block any="1" sid="2132099551784408">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="4637578897945598" type="System">
-                    <param id="0" name="Interval (seconds)">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="3930485735450598" type="5Spawn">
-                    <param id="0" name="Object">4Inimigo</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2132099551784408">
-            <conditions>
+                <condition id="-18" name="On created" sid="9385426446102413" type="4Inimigo" />
                 <condition id="-6" name="Every X seconds" sid="2369109488969827" type="System">
                     <param id="0" name="Interval (seconds)">0.5</param>
                 </condition>
@@ -69,17 +50,9 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7243873862121255">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="6397243452227686" type="1Personagem">
-                    <param id="0" name="Instance variable">vida</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-26" name="Restart layout" sid="9571870297912786" type="System" />
-            </actions>
+        <event-block sid="6284173113437108">
+            <conditions />
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

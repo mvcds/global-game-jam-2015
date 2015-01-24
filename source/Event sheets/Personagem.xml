@@ -3,30 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Personagem</name>
     <events>
-        <event-group description="" sid="280542733392419" title="Personagem" />
-        <event-block disabled="1" sid="1678970871627342">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="9987298094317691" type="System" />
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="3702446435762113" type="System">
-                    <param id="0" name="Object to create">1Personagem</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">random(20,840)</param>
-                    <param id="3" name="Y">random(20,450)</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block disabled="1" sid="4269369430801739">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="6769250984550555" type="1Personagem">
-                            <param id="0" name="Object">2Caixa</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="5359516628871897">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="1269100200662861" type="System" />
@@ -67,28 +43,24 @@
                 <action behavior="Pathfinding" id="1" name="Move along path" sid="7805936182817798" type="1Personagem" />
             </actions>
         </event-block>
-        <event-block disabled="1" sid="3274232385460995">
-            <conditions>
-                <condition id="0" name="On click" sid="5294108110808113" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="5215329851573387" type="System">
-                    <param id="0" name="Object to create">2Caixa</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">Mouse.X</param>
-                    <param id="3" name="Y">Mouse.Y</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="2949822877239449">
             <conditions>
                 <condition behavior="Pathfinding" id="5" name="On arrived" sid="448616229805286" type="1Personagem" />
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="7789566038278478" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="3409602772657237">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="1727208534235789" type="1Personagem">
+                    <param id="0" name="Instance variable">vida</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="4001916456726989" type="System" />
             </actions>
         </event-block>
     </events>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu Inicial</name>
+    <events>
+        <event-block sid="7206427691124562">
+            <conditions>
+                <condition id="0" name="On clicked" sid="876268440542067" type="Tutorial" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4547036892935814" type="System">
+                    <param id="0" name="Layout">FasePrototipo</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

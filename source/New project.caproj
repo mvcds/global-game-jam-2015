@@ -10,6 +10,7 @@
     <unique-id>36uv9f0yxplh</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -31,6 +32,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>Menu Inicial</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -109,14 +111,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="5Spawn" sid="6568702193652698">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6886165331087697" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="6Parede" sid="2709232611213655">
             <plugin id="Sprite" />
             <behaviors>
@@ -184,6 +178,35 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9340825725516712" speed="5">
                     <frame duration="1" hotspotX="0.0105263" hotspotY="0.571429" original-source="C:\Users\Yara\Pictures\GGJ\subbar.png" />
+        <object-type name="Tutorial" sid="4948819764022861">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="menu_" sid="9967379250201004">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9466697705767294" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\menu_01.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spawner" sid="9903790902553483">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="inimigos" sid="5970931834246369" type="number" />
+                <instance-variable name="segundos" sid="7816017702460746" type="number" />
+                <instance-variable name="inimigo" sid="8752928826564995" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9086103570138837" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inimigo2" sid="3878684390449051">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2777016924462175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -193,6 +216,7 @@
         <layout>FasePrototipo.xml</layout>
         <layout>Backup.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
+        <layout>Menu Inicial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
@@ -200,6 +224,8 @@
         <event-sheet>Inimigo.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
         <event-sheet>HUD.xml</event-sheet>
+        <event-sheet>Menu Inicial.xml</event-sheet>
+        <event-sheet>Spawner.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="45" />

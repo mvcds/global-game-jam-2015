@@ -4,6 +4,7 @@
     <name>Game</name>
     <events>
         <include>HUD</include>
+        <include>Spawner</include>
         <include>Personagem</include>
         <include>Inimigo</include>
         <include>Caixa</include>

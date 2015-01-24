@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Spawner</name>
+    <events>
+        <event-block sid="7384832831229457">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="2729790836224508" type="System">
+                    <param id="0" name="Interval (seconds)">Spawner.segundos</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="400036253806119">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7793749931870756" type="Spawner">
+                            <param id="0" name="Instance variable">inimigos</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="2865931000378377" type="Spawner">
+                            <param id="0" name="Instance variable">inimigos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5668788987923802">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="9895612125522532" type="Spawner">
+                                    <param id="0" name="Instance variable">inimigos</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="3621596043846481" type="Spawner" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4151924408734819">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4228025341373453" type="Spawner">
+                            <param id="0" name="Instance variable">inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="2792143261874008" type="Spawner">
+                            <param id="0" name="Object">4Inimigo</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1142559641559439">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="7489876717589037" type="Spawner">
+                            <param id="0" name="Instance variable">inimigo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="5290160060781429" type="Spawner">
+                            <param id="0" name="Object">Inimigo2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
