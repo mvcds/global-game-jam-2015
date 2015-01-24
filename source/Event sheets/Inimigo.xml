@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Inimigo</name>
+    <events>
+        <event-group description="" sid="4391906225127444" title="Inimigo" />
+        <event-block sid="9333824364873866">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1748272099750646" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="5" name="Add obstacle" sid="6535860219477091" type="4Inimigo">
+                    <param id="0" name="Obstacle">2Caixa</param>
+                </action>
+                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="8921966871557181" type="4Inimigo" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="6082596371844596" type="4Inimigo">
+                    <param id="0" name="X">1Personagem.X</param>
+                    <param id="1" name="Y">1Personagem.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8523382019470955">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4637578897945598" type="System">
+                    <param id="0" name="Interval (seconds)">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="3930485735450598" type="5Spawn">
+                    <param id="0" name="Object">4Inimigo</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2132099551784408">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="2369109488969827" type="System">
+                    <param id="0" name="Interval (seconds)">0.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="4" name="Regenerate obstacle map" sid="4852866362881978" type="4Inimigo" />
+                <action behavior="Pathfinding" id="0" name="Find path" sid="7580894450725578" type="4Inimigo">
+                    <param id="0" name="X">1Personagem.X</param>
+                    <param id="1" name="Y">1Personagem.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7521727314967582">
+            <conditions>
+                <condition behavior="Pathfinding" id="0" name="On path found" sid="1220867259170631" type="4Inimigo" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="1" name="Move along path" sid="9033457170998436" type="4Inimigo" />
+            </actions>
+        </event-block>
+        <event-block sid="7643269791879964">
+            <conditions>
+                <condition behavior="Pathfinding" id="5" name="On arrived" sid="3756844102847471" type="4Inimigo" />
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="7" name="Set max speed" sid="8574931366106961" type="1Personagem">
+                    <param id="0" name="Speed">1Personagem.Pathfinding.MaxSpeed+2</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="6959247841502563" type="1Personagem">
+                    <param id="0" name="Instance variable">vida</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7243873862121255">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="6397243452227686" type="1Personagem">
+                    <param id="0" name="Instance variable">vida</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="9571870297912786" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Caixa</name>
+    <events>
+        <event-group description="" sid="185757133383009" title="Mov. Caixa" />
+        <event-block sid="8513737697764018">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="2821063764896246" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="5408399645865092" type="8Overlap">
+                    <param id="0" name="X">7Jogador.X</param>
+                    <param id="1" name="Y">7Jogador.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2800152210744521">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="438570921978875" type="8Overlap">
+                    <param id="0" name="Object">2Caixa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="4" name="Set max speed" sid="3246174505292643" type="2Caixa">
+                    <param id="0" name="Max Speed">200</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="9877366949640648">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="5050886816568523" type="Keyboard">
+                            <param id="0" name="Key">39 (Right arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="2060902144003982" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="3553390353569436" type="2Caixa">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4240811045852361">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="3702144711717955" type="Keyboard">
+                            <param id="0" name="Key">37 (Left arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="7137716227521206" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="5144888136620857" type="2Caixa">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5924776269928818">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="7089722371432338" type="Keyboard">
+                            <param id="0" name="Key">40 (Down arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="2233697785517718" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="5588169901986277" type="2Caixa">
+                            <param id="0" name="Control">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1164155235453971">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="8506129264289082" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="7831466298903393" type="Keyboard">
+                            <param id="0" name="Key">90 (Z)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="8Direction" id="7" name="Simulate control" sid="8033107296406891" type="2Caixa">
+                            <param id="0" name="Control">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

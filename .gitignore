@@ -1,0 +1,9 @@
+/source/*.autosave
+/source/*.backup1
+/trials/Unity/*.suo
+/trials/Unity/obj/Debug/*.dll
+/trials/Unity/obj/Debug/*.pdb
+/trials/Unity/obj/Debug/*.cache
+/trials/Unity/obj
+/trials/Unity/Library/*.db
+/trials/Unity/Library/metadata
