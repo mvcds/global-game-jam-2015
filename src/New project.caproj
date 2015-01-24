@@ -391,6 +391,7 @@
     <families />
     <layout-folder>
         <layout>FasePrototipo.xml</layout>
+        <layout>FaseTrick.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
     </layout-folder>
     <event-folder>
