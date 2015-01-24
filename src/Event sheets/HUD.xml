@@ -31,15 +31,15 @@
                     <param id="0" name="Width">1Personagem.vida&lt;=0 ? 0 : (Self.InWidth+(1Personagem.vida-1Personagem.vidaMax)*(Self.InWidth/1Personagem.vidaMax))</param>
                 </action>
                 <action id="-3" name="Set position" sid="5474272077419621" type="BarraCheia">
-                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="0" name="X">1Personagem.X - BarraCheia.InWidth/2</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
                 <action id="-3" name="Set position" sid="8946101264965796" type="BarraBorda">
-                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="0" name="X">1Personagem.X-Self.Width/2</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
                 <action id="-3" name="Set position" sid="6991495086066978" type="BarraFundo">
-                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="0" name="X">1Personagem.X-Self.Width/2</param>
                     <param id="1" name="Y">1Personagem.Y-20</param>
                 </action>
             </actions>
