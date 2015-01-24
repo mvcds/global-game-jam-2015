@@ -1,5 +1,5 @@
-/source/*.autosave
-/source/*.backup1
+/src/*.autosave
+/src/*.backup1
 /trials/Unity/*.suo
 /trials/Unity/obj/Debug/*.dll
 /trials/Unity/obj/Debug/*.pdb
