@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HUD</name>
+    <events>
+        <event-block sid="9139469475583709">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2100783971158926" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="1018874424135735" type="HPBar">
+                    <param id="0" name="X">HPFrame.X</param>
+                    <param id="1" name="Y">HPFrame.Y</param>
+                </action>
+                <action id="-3" name="Set position" sid="9319323781906201" type="HPSubBar">
+                    <param id="0" name="X">HPFrame.X</param>
+                    <param id="1" name="Y">HPFrame.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="1277331537034574" type="HPBar">
+                    <param id="0" name="Instance variable">InWidth</param>
+                    <param id="1" name="Value">Self.Width</param>
+                </action>
+                <action id="-6" name="Set height" sid="9164613118008198" type="HPBar">
+                    <param id="0" name="Height">Self.Height/2</param>
+                </action>
+                <action id="-6" name="Set height" sid="249033951841806" type="HPFrame">
+                    <param id="0" name="Height">Self.Height/2</param>
+                </action>
+                <action id="-6" name="Set height" sid="3680265444699163" type="HPSubBar">
+                    <param id="0" name="Height">Self.Height/2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3949449583062977">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="4087399084347121" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="271213523842101" type="HPBar">
+                    <param id="0" name="Width">1Personagem.vida&lt;=0 ? 0 : (Self.InWidth+(1Personagem.vida-1Personagem.vidaMax)*(Self.InWidth/1Personagem.vidaMax))</param>
+                </action>
+                <action id="-3" name="Set position" sid="5521996967885769" type="HPBar">
+                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="1" name="Y">1Personagem.Y-20</param>
+                </action>
+                <action id="-3" name="Set position" sid="6852342634666303" type="HPFrame">
+                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="1" name="Y">1Personagem.Y-20</param>
+                </action>
+                <action id="-3" name="Set position" sid="8716846526207516" type="HPSubBar">
+                    <param id="0" name="X">1Personagem.X-20</param>
+                    <param id="1" name="Y">1Personagem.Y-20</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

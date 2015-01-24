@@ -76,6 +76,7 @@
                     </properties>
                     <instance-variables>
                         <vida>50</vida>
+                        <vidaMax>50</vidaMax>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Pathfinding">
