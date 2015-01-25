@@ -69,7 +69,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6540709850243559" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\menino\direita.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.15625" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -85,7 +96,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9254272789654751" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\móvel_02.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -109,7 +120,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6449994649398482" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\pirata\direita.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.5" y="0.65625" />
+                            <point x="0.09375" y="0.90625" />
+                            <point x="0.09375" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -173,7 +195,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8374736998785024" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\zombie\direita.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.15625" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.90625" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.09375" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -205,7 +237,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3810413845573257" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\E.T\esquerda.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="0.625" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.21875" y="0.78125" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -229,7 +272,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1659212692167103" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\E.T\laser_esquerda.png">
+                        <collision-poly>
+                            <point x="0.34375" y="0.34375" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.6875" y="0.6875" />
+                            <point x="0.5" y="0.75" />
+                            <point x="0.46875" y="0.53125" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -299,7 +352,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1153419864894113" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\fixa.png">
                         <collision-poly>
                             <point x="0" y="1" />
                             <point x="0" y="0" />
@@ -308,20 +361,23 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Selective" pingpong="0" repeatcount="1" repeatto="0" sid="5899288945067028" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\móvel.png" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="15SetaD" sid="8587005756555581">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5931918396482562" speed="5">
-                    <frame duration="1" hotspotX="0.3125" hotspotY="0.5" original-source="C:\Users\Fernando\Jogos\GGJ\arte\barreiras\setas\seta_05.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.3125" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\setas\seta_cima.png">
                         <collision-poly>
-                            <point x="0.53125" y="0.46875" />
-                            <point x="0.6875" y="0.5" />
                             <point x="0.53125" y="0.53125" />
+                            <point x="0.5" y="0.6875" />
                             <point x="0.46875" y="0.53125" />
-                            <point x="0.3125" y="0.5" />
                             <point x="0.46875" y="0.46875" />
+                            <point x="0.5" y="0.3125" />
+                            <point x="0.53125" y="0.46875" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -331,16 +387,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8469558640291406" speed="5">
-                    <frame duration="1" hotspotX="0.6875" hotspotY="0.5" original-source="C:\Users\Fernando\Jogos\GGJ\arte\barreiras\setas\seta_05.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.3125" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\setas\seta_cima.png">
                         <collision-poly>
+                            <point x="0.5625" y="0.4375" />
+                            <point x="0.59375" y="0.5" />
                             <point x="0.5625" y="0.5625" />
-                            <point x="0.5" y="0.59375" />
-                            <point x="0.4375" y="0.5625" />
+                            <point x="0.5" y="0.625" />
+                            <point x="0.46875" y="0.53125" />
                             <point x="0.375" y="0.5" />
                             <point x="0.46875" y="0.46875" />
                             <point x="0.5" y="0.375" />
-                            <point x="0.53125" y="0.46875" />
-                            <point x="0.625" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -350,7 +406,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9846256206842786" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\Fernando\Jogos\GGJ\arte\barreiras\setas\seta_05.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\setas\seta_cima.png">
                         <collision-poly>
                             <point x="0.4375" y="0.4375" />
                             <point x="0.5" y="0.40625" />
@@ -369,16 +425,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3793297921216705" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.3125" original-source="C:\Users\Fernando\Jogos\GGJ\arte\barreiras\setas\seta_05.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\barreiras\setas\seta_cima.png">
                         <collision-poly>
-                            <point x="0.4375" y="0.4375" />
-                            <point x="0.5" y="0.40625" />
-                            <point x="0.5625" y="0.4375" />
-                            <point x="0.625" y="0.5" />
-                            <point x="0.53125" y="0.53125" />
-                            <point x="0.5" y="0.625" />
-                            <point x="0.46875" y="0.53125" />
                             <point x="0.375" y="0.5" />
+                            <point x="0.46875" y="0.46875" />
+                            <point x="0.5" y="0.375" />
+                            <point x="0.53125" y="0.46875" />
+                            <point x="0.625" y="0.5" />
+                            <point x="0.5625" y="0.5625" />
+                            <point x="0.5" y="0.59375" />
+                            <point x="0.4375" y="0.5625" />
                         </collision-poly>
                     </frame>
                 </animation>

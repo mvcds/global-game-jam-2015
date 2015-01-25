@@ -120,7 +120,7 @@
                                 <acceleration>1000</acceleration>
                                 <deceleration>2000</deceleration>
                                 <rotate-speed>135</rotate-speed>
-                                <rotate-object>No</rotate-object>
+                                <rotate-object>Yes</rotate-object>
                                 <diagonals>Disabled</diagonals>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4635,8 +4635,8 @@
                         <x>384</x>
                         <y>384</y>
                         <z>0</z>
-                        <width>31</width>
-                        <height>31</height>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4681,8 +4681,8 @@
                         <x>448</x>
                         <y>384</y>
                         <z>0</z>
-                        <width>31</width>
-                        <height>31</height>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4727,8 +4727,8 @@
                         <x>448</x>
                         <y>320</y>
                         <z>0</z>
-                        <width>31</width>
-                        <height>31</height>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4773,8 +4773,8 @@
                         <x>384</x>
                         <y>320</y>
                         <z>0</z>
-                        <width>31</width>
-                        <height>31</height>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

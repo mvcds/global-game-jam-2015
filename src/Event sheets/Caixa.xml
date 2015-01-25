@@ -187,6 +187,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="6277023290042659" type="14Caixa1">
+                    <param id="0" name="Animation">&quot;Selective&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="2368967241780235" type="14Caixa1">
                     <param id="0" name="Object">15SetaD</param>
                     <param id="1" name="Layer">1</param>
@@ -201,6 +205,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="76171806968335" type="14Caixa1">
+                    <param id="0" name="Animation">&quot;Selective&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="5633162001048678" type="14Caixa1">
                     <param id="0" name="Object">15SetaE</param>
                     <param id="1" name="Layer">1</param>
@@ -215,6 +223,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="3755011096164618" type="14Caixa1">
+                    <param id="0" name="Animation">&quot;Selective&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="7607106430987404" type="14Caixa1">
                     <param id="0" name="Object">15SetaC</param>
                     <param id="1" name="Layer">1</param>
@@ -229,6 +241,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="9480382547386381" type="14Caixa1">
+                    <param id="0" name="Animation">&quot;Selective&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="9839771991070994" type="14Caixa1">
                     <param id="0" name="Object">15SetaB</param>
                     <param id="1" name="Layer">1</param>
