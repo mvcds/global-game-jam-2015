@@ -2,7 +2,7 @@
 <c2layout>
     <name>Menu Inicial</name>
     <sid>7790856275033828</sid>
-    <event-sheet>MenuInicial</event-sheet>
+    <event-sheet>Botoes</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -58,6 +58,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <level>FasePrototipo</level>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
