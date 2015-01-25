@@ -18,7 +18,7 @@
                     <actions>
                         <action id="0" name="Add key" sid="1887846932681561" type="MusicaDic">
                             <param id="0" name="Key">&quot;Menu Inicial&quot;</param>
-                            <param id="1" name="Value">&quot;8&quot;</param>
+                            <param id="1" name="Value">&quot;04&quot;</param>
                         </action>
                         <action id="0" name="Add key" sid="3543310607566821" type="MusicaDic">
                             <param id="0" name="Key">&quot;Tutorial&quot;</param>
@@ -30,19 +30,19 @@
                         </action>
                         <action id="0" name="Add key" sid="5909996589312289" type="MusicaDic">
                             <param id="0" name="Key">&quot;Fase002&quot;</param>
-                            <param id="1" name="Value">&quot;8&quot;</param>
+                            <param id="1" name="Value">&quot;015&quot;</param>
                         </action>
                         <action id="0" name="Add key" sid="9715525444393727" type="MusicaDic">
                             <param id="0" name="Key">&quot;Fase003&quot;</param>
-                            <param id="1" name="Value">&quot;8&quot;</param>
+                            <param id="1" name="Value">&quot;011&quot;</param>
                         </action>
                         <action id="0" name="Add key" sid="1258386519893084" type="MusicaDic">
                             <param id="0" name="Key">&quot;Fase004&quot;</param>
-                            <param id="1" name="Value">&quot;8&quot;</param>
+                            <param id="1" name="Value">&quot;012&quot;</param>
                         </action>
                         <action id="0" name="Add key" sid="5939039793211797" type="MusicaDic">
                             <param id="0" name="Key">&quot;Fase005&quot;</param>
-                            <param id="1" name="Value">&quot;8&quot;</param>
+                            <param id="1" name="Value">&quot;1&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -56,7 +56,7 @@
                         <action id="7" name="Play (by name)" sid="9680155773471673" type="Audio">
                             <param id="0" name="Folder">0</param>
                             <param id="1" name="Audio file name">MusicaDic.Get(LayoutName)</param>
-                            <param id="3" name="Loop">0</param>
+                            <param id="3" name="Loop">1</param>
                             <param id="4" name="Volume">0</param>
                             <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
