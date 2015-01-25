@@ -489,7 +489,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1513806608707014" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="G:\GGJ\arte\menu\menu_854x480-comlogo.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\menu.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -532,7 +532,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4381049804447672" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="G:\GGJ\arte\tutorial_854x480.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\tutorial.png" />
                 </animation>
             </animation-folder>
         </object-type>

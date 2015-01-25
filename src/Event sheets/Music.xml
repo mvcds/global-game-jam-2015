@@ -72,7 +72,7 @@
                 <action id="25" name="Play at object" sid="8743760377054207" type="Audio">
                     <param id="0" name="Audio file">Drawer_short</param>
                     <param id="1" name="Loop">0</param>
-                    <param id="2" name="Volume">-10</param>
+                    <param id="2" name="Volume">-14</param>
                     <param id="3" name="Object">2Caixa</param>
                     <param id="4" name="Inner angle">360</param>
                     <param id="5" name="Outer angle">360</param>
