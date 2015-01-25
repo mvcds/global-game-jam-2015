@@ -510,9 +510,40 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="menuInicial" sid="5479303860188434">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1513806608707014" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="G:\GGJ\arte\menu\menu_854x480-comlogo.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botão_start" sid="687501543706295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663948630398658" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\GGJ\arte\botão\botão_start.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.078125" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.960938" y="0.078125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.960938" y="0.921875" />
+                            <point x="0.5" y="0.96875" />
+                            <point x="0.0390625" y="0.921875" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="5965927463602627">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
+        <layout>Menu Inicial.xml</layout>
         <layout>FasePrototipo.xml</layout>
         <layout>FaseTrick.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
@@ -523,6 +554,7 @@
         <event-sheet>Inimigo.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
         <event-sheet>HUD.xml</event-sheet>
+        <event-sheet>MenuInicial.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="45" />

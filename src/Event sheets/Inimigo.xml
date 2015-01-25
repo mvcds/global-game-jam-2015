@@ -116,6 +116,25 @@
                 <action id="-9" name="Destroy" sid="5123586796666002" type="13Projetil" />
             </actions>
         </event-block>
+        <event-block sid="246604580854799">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="8526109580299889" type="13Projetil">
+                    <param id="0" name="Object">14Caixa1</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="5441529079658796" type="13Projetil">
+                    <param id="0" name="Object">2Caixa</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="6250490321968043" type="13Projetil">
+                    <param id="0" name="Object">3Saida</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="5103739773968993" type="13Projetil">
+                    <param id="0" name="Object">6Parede</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6036040698239353" type="13Projetil" />
+            </actions>
+        </event-block>
         <comment>Inimigo Área</comment>
         <event-block sid="7848201169503438">
             <conditions>
