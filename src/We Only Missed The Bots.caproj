@@ -250,6 +250,7 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3810413845573257" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\E.T\esquerda.png">
+                        <image-point name="Imagepoint 1" x="1" y="0.125" />
                         <collision-poly>
                             <point x="0.25" y="0.25" />
                             <point x="0.5" y="0.09375" />

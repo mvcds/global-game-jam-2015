@@ -98,7 +98,7 @@
                 <action id="0" name="Spawn another object" sid="1770856341182152" type="11InimigoProjetil">
                     <param id="0" name="Object">13Projetil</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="Image point">0</param>
+                    <param id="2" name="Image point">1</param>
                 </action>
             </actions>
         </event-block>
