@@ -72,6 +72,15 @@
                 <behavior-type name="Pathfinding" sid="3251738259261982">
                     <behavior id="Pathfinding" />
                 </behavior-type>
+                <behavior-type name="Bullet" sid="6982636159305747">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="127822477283366">
+                    <behavior id="LOS" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="1505243404034854">
+                    <behavior id="EightDir" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6540709850243559" speed="5">
