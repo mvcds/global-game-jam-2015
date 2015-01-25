@@ -540,18 +540,28 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text2" sid="5965927463602627">
-            <plugin id="Text" />
+        <object-type name="Sprite" sid="9323004098710622">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LineOfSight" sid="2039096260059543">
+                    <behavior id="LOS" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657525358831177" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Menu Inicial.xml</layout>
         <layout>FasePrototipo.xml</layout>
         <layout>FaseTrick.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
         <layout>Fase001.xml</layout>
         <layout>Fase002.xml</layout>
+        <layout>FaseMedia.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
@@ -559,11 +569,12 @@
         <event-sheet>Inimigo.xml</event-sheet>
         <event-sheet>Personagem.xml</event-sheet>
         <event-sheet>HUD.xml</event-sheet>
+        <event-sheet>Poder.xml</event-sheet>
         <event-sheet>Botoes.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Mouse" uid="472" />
-        <global-instance type="Keyboard" uid="473" />
+        <global-instance type="Mouse" uid="134" />
+        <global-instance type="Keyboard" uid="135" />
     </global-instances>
     <sounds-folder />
     <music-folder />
