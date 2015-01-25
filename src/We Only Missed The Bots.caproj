@@ -553,6 +553,17 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="tutorial_854x" sid="7900009823435001">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4381049804447672" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="G:\GGJ\arte\tutorial_854x480.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="9071134959583518">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -562,6 +573,7 @@
         <layout>Fase001.xml</layout>
         <layout>Fase002.xml</layout>
         <layout>FaseMedia.xml</layout>
+        <layout>Tutorial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
@@ -571,10 +583,11 @@
         <event-sheet>HUD.xml</event-sheet>
         <event-sheet>Poder.xml</event-sheet>
         <event-sheet>Botoes.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Mouse" uid="134" />
-        <global-instance type="Keyboard" uid="135" />
+        <global-instance type="Mouse" uid="584" />
+        <global-instance type="Keyboard" uid="585" />
     </global-instances>
     <sounds-folder />
     <music-folder />
