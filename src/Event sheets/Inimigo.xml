@@ -163,7 +163,7 @@
                         <action id="25" name="Play at object" sid="9839661675146807" type="Audio">
                             <param id="0" name="Audio file">MaleGrunt</param>
                             <param id="1" name="Loop">0</param>
-                            <param id="2" name="Volume">1</param>
+                            <param id="2" name="Volume">2</param>
                             <param id="3" name="Object">1Personagem</param>
                             <param id="4" name="Inner angle">360</param>
                             <param id="5" name="Outer angle">360</param>
@@ -213,7 +213,7 @@
                         <action id="25" name="Play at object" sid="5801119965345176" type="Audio">
                             <param id="0" name="Audio file">MaleGrunt</param>
                             <param id="1" name="Loop">0</param>
-                            <param id="2" name="Volume">1</param>
+                            <param id="2" name="Volume">2</param>
                             <param id="3" name="Object">1Personagem</param>
                             <param id="4" name="Inner angle">360</param>
                             <param id="5" name="Outer angle">360</param>
@@ -269,7 +269,7 @@
                         <action id="25" name="Play at object" sid="6860374803150352" type="Audio">
                             <param id="0" name="Audio file">MaleGrunt</param>
                             <param id="1" name="Loop">0</param>
-                            <param id="2" name="Volume">1</param>
+                            <param id="2" name="Volume">2</param>
                             <param id="3" name="Object">1Personagem</param>
                             <param id="4" name="Inner angle">360</param>
                             <param id="5" name="Outer angle">360</param>
