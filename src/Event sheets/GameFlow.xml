@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GameFlow</name>
+    <events>
+        <event-block sid="2939946467138807">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1866138517388726" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="7322609201094523" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3601475412931012">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5491584069426243" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Toggle pause" sid="9340150061179048" type="Pause" />
+            </actions>
+        </event-block>
+        <event-block sid="3744588585552625">
+            <conditions>
+                <condition id="0" name="On pause" sid="1523790580885103" type="Pause" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="9352042495047794" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="1576980865894303" type="System">
+                    <param id="0" name="Object to create">botao_layout</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">427</param>
+                    <param id="3" name="Y">240 - 2 * botao_reset.Height</param>
+                </action>
+                <action id="-10" name="Set value" sid="8226381662429807" type="botao_layout">
+                    <param id="0" name="Instance variable">level</param>
+                    <param id="1" name="Value">&quot;Menu Inicial&quot;</param>
+                </action>
+                <action id="-3" name="Create object" sid="7469438258515277" type="System">
+                    <param id="0" name="Object to create">GoMenu</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">botao_layout.X</param>
+                    <param id="3" name="Y">botao_layout.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4899089315065742">
+            <conditions>
+                <condition id="1" name="On resume" sid="5029633371877141" type="Pause" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2608273238098373" type="botao_layout" />
+                <action id="-13" name="Set time scale" sid="7112859291624393" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4923074513566724" type="GoMenu" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

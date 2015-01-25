@@ -6,6 +6,7 @@
         <event-block sid="8513737697764018">
             <conditions>
                 <condition id="-1" name="Every tick" sid="2821063764896246" type="System" />
+                <condition id="2" inverted="1" name="Is pause" sid="5510991663805277" type="Pause" />
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="5408399645865092" type="8Overlap">

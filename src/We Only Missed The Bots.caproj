@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_Pause" version="1">Pause</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -62,6 +63,7 @@
                 <instance-variable name="vida" sid="4663171146269672" type="number" />
                 <instance-variable name="Detectado" sid="8447758208925202" type="boolean" />
                 <instance-variable name="vidaMax" sid="2882437750605689" type="number" />
+                <instance-variable name="bonus_por_tempo" sid="6811594286688057" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Pathfinding" sid="3251738259261982">
@@ -133,14 +135,6 @@
                             <point x="0.09375" y="0.5" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="5Spawn" sid="6568702193652698">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6886165331087697" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -221,19 +215,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="10SpawnArea" sid="5999079803602056">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LineOfSight" sid="1457662128216037">
-                    <behavior id="LOS" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5488545752432952" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="11InimigoProjetil" sid="985771741746697">
             <plugin id="Sprite" />
             <instance-variables>
@@ -262,14 +243,6 @@
                             <point x="0.125" y="0.5" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="12SpawnProjetil" sid="405940845737889">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5516602821642008" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -517,7 +490,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="botão_start" sid="687501543706295">
+        <object-type name="botao_layout" sid="687501543706295">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="level" sid="2297629499698311" type="string" />
@@ -563,6 +536,73 @@
         <object-type name="Start" sid="5951156246399942">
             <plugin id="Text" />
         </object-type>
+        <object-type name="pontuacao_da_fase" sid="4446492220330847">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="pontuacao_total" sid="8103234201025536">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="botao_reset" sid="4674746285251217">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4278169017630696" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\GGJ\arte\botão\botão_start.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.078125" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.960938" y="0.078125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.960938" y="0.921875" />
+                            <point x="0.5" y="0.96875" />
+                            <point x="0.0390625" y="0.921875" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Restart" sid="9375167976666543">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Pause" sid="5114067891637495">
+            <plugin id="Rex_Pause" />
+        </object-type>
+        <object-type name="1Personagem2" sid="1353149118035345">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="vida" sid="8172503375951367" type="number" />
+                <instance-variable name="Detectado" sid="7521980178214347" type="boolean" />
+                <instance-variable name="vidaMax" sid="4409779853881827" type="number" />
+                <instance-variable name="bonus_por_tempo" sid="6684206617095024" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pathfinding" sid="7818441635283887">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="3021175926752716">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1484098594929079" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\menino\direita.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.15625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GoMenu" sid="2835773369884906">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -584,10 +624,12 @@
         <event-sheet>HUD.xml</event-sheet>
         <event-sheet>Poder.xml</event-sheet>
         <event-sheet>Botoes.xml</event-sheet>
+        <event-sheet>GameFlow.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="700" />
         <global-instance type="Keyboard" uid="701" />
+        <global-instance type="Pause" uid="251" />
     </global-instances>
     <sounds-folder />
     <music-folder />

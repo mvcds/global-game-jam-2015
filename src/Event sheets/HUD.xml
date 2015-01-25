@@ -20,29 +20,72 @@
                     <param id="0" name="Instance variable">InWidth</param>
                     <param id="1" name="Value">Self.Width</param>
                 </action>
+                <action id="0" name="Set text" sid="2219607555237374" type="pontuacao_total">
+                    <param id="0" name="Text">pontuacao</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="5573612998240108">
+        <event-block sid="3896096652243681">
             <conditions>
-                <condition id="-1" name="Every tick" sid="9077660275500597" type="System" />
+                <condition id="2" inverted="1" name="Is pause" sid="9840710285369152" type="Pause" />
             </conditions>
-            <actions>
-                <action id="-5" name="Set width" sid="7209445698834076" type="BarraCheia">
-                    <param id="0" name="Width">1Personagem.vida&lt;=0 ? 0 : (Self.InWidth+(1Personagem.vida-1Personagem.vidaMax)*(Self.InWidth/1Personagem.vidaMax))</param>
-                </action>
-                <action id="-3" name="Set position" sid="5474272077419621" type="BarraCheia">
-                    <param id="0" name="X">1Personagem.X - BarraCheia.InWidth/2</param>
-                    <param id="1" name="Y">1Personagem.Y-20</param>
-                </action>
-                <action id="-3" name="Set position" sid="8946101264965796" type="BarraBorda">
-                    <param id="0" name="X">1Personagem.X-Self.Width/2</param>
-                    <param id="1" name="Y">1Personagem.Y-20</param>
-                </action>
-                <action id="-3" name="Set position" sid="6991495086066978" type="BarraFundo">
-                    <param id="0" name="X">1Personagem.X-Self.Width/2</param>
-                    <param id="1" name="Y">1Personagem.Y-20</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="5573612998240108">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="9077660275500597" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-5" name="Set width" sid="7209445698834076" type="BarraCheia">
+                            <param id="0" name="Width">1Personagem.vida&lt;=0 ? 0 : (Self.InWidth+(1Personagem.vida-1Personagem.vidaMax)*(Self.InWidth/1Personagem.vidaMax))</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="5474272077419621" type="BarraCheia">
+                            <param id="0" name="X">1Personagem.X - BarraCheia.InWidth/2</param>
+                            <param id="1" name="Y">1Personagem.Y-20</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="8946101264965796" type="BarraBorda">
+                            <param id="0" name="X">1Personagem.X-Self.Width/2</param>
+                            <param id="1" name="Y">1Personagem.Y-20</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="6991495086066978" type="BarraFundo">
+                            <param id="0" name="X">1Personagem.X-Self.Width/2</param>
+                            <param id="1" name="Y">1Personagem.Y-20</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="6007208531048763" type="pontuacao_da_fase">
+                            <param id="0" name="X">7Jogador.X - 7Jogador.Width/2 + 10</param>
+                            <param id="1" name="Y">7Jogador.Y  - 20</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="698167875154923">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="6246095742821609" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="2576702489976785" type="1Personagem">
+                            <param id="0" name="Instance variable">bonus_por_tempo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="2951791194081068" type="pontuacao_da_fase">
+                            <param id="0" name="Text">1Personagem.bonus_por_tempo</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9457663683029139">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="3501759428826011" type="1Personagem">
+                            <param id="0" name="Instance variable">bonus_por_tempo</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="1894064459580524" type="pontuacao_da_fase" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
