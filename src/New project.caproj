@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -20,7 +21,6 @@
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
-        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -53,7 +53,7 @@
     <object-folder>
         <object-type name="Fundo" sid="8107011517508872">
             <plugin id="TiledBg" />
-            <texture />
+            <texture original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\chão\fundo_madeira.png" />
         </object-type>
         <object-type name="1Personagem" sid="8998483743956636">
             <plugin id="Sprite" />
@@ -104,7 +104,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2669185733714244" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\porta_saída\porta_fechada.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -168,7 +168,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9278859169261309" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\fantasma\direita.png">
+                        <collision-poly>
+                            <point x="0.21875" y="0.21875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.65625" y="0.34375" />
+                            <point x="0.6875" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.21875" y="0.78125" />
+                            <point x="0.15625" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -176,12 +187,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5879412209505768" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\fantasma\direita.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="Keyboard" sid="7522995723415716">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Vida" sid="1752379149130043">
+            <plugin id="Text" />
         </object-type>
         <object-type name="9InimigoArea" sid="1067095873301049">
             <plugin id="Sprite" />
@@ -221,6 +235,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="7712869842693675">
+            <plugin id="Text" />
         </object-type>
         <object-type name="11InimigoProjetil" sid="985771741746697">
             <plugin id="Sprite" />
@@ -296,9 +313,6 @@
             <behaviors>
                 <behavior-type name="LineOfSight" sid="5680612258224958">
                     <behavior id="LOS" />
-                </behavior-type>
-                <behavior-type name="Timer" sid="1203640027655106">
-                    <behavior id="Timer" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -435,6 +449,62 @@
                             <point x="0.5625" y="0.5625" />
                             <point x="0.5" y="0.59375" />
                             <point x="0.4375" y="0.5625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpawnPirata" sid="8775142348600191">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4864414839815872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\spawn_point\bandeira.png">
+                        <collision-poly>
+                            <point x="0.09375" y="0.09375" />
+                            <point x="0.5" y="0.125" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="0.65625" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpawnAlien" sid="8935703187263042">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3329865171454073" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\spawn_point\nave.png">
+                        <collision-poly>
+                            <point x="0.15625" y="0.15625" />
+                            <point x="0.5" y="0.03125" />
+                            <point x="0.84375" y="0.15625" />
+                            <point x="0.96875" y="0.5" />
+                            <point x="0.84375" y="0.84375" />
+                            <point x="0.5" y="0.96875" />
+                            <point x="0.15625" y="0.84375" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpawnZumbi" sid="3529990219850511">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6522832358449667" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\spawn_point\cova.png">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.09375" />
+                            <point x="0.875" y="0.125" />
+                            <point x="0.875" y="0.5" />
+                            <point x="0.53125" y="0.53125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.34375" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>

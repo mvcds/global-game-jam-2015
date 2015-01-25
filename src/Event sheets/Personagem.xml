@@ -31,6 +31,9 @@
                     <param id="0" name="X">3Saida.X</param>
                     <param id="1" name="Y">3Saida.Y</param>
                 </action>
+                <action id="0" name="Set text" sid="9326523757041744" type="Vida">
+                    <param id="0" name="Text">1Personagem.vida</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7034016943332057">

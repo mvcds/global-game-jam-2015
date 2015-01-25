@@ -168,22 +168,10 @@
             </actions>
         </event-block>
         <comment>spawner</comment>
-        <event-block sid="5314521767790702">
-            <conditions>
-                <condition id="-18" name="On created" sid="4201798895293445" type="Spawner" />
-            </conditions>
-            <actions>
-                <action behavior="Timer" id="0" name="Start timer" sid="8884374688793418" type="Spawner">
-                    <param id="0" name="Duration">Self.segundos</param>
-                    <param id="1" name="Type">1</param>
-                    <param id="2" name="Tag">&quot;spaw&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="676677287193582">
             <conditions>
-                <condition behavior="Timer" id="0" name="On timer" sid="6431741915128708" type="Spawner">
-                    <param id="0" name="Tag">&quot;spaw&quot;</param>
+                <condition id="-6" name="Every X seconds" sid="4628627710730515" type="System">
+                    <param id="0" name="Interval (seconds)">Spawner.segundos</param>
                 </condition>
             </conditions>
             <actions />
