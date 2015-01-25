@@ -547,6 +547,8 @@
         <layout>FasePrototipo.xml</layout>
         <layout>FaseTrick.xml</layout>
         <layout>Mapa de Spawn.xml</layout>
+        <layout>Fase001.xml</layout>
+        <layout>Fase002.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
@@ -557,8 +559,8 @@
         <event-sheet>MenuInicial.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Mouse" uid="45" />
-        <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Mouse" uid="472" />
+        <global-instance type="Keyboard" uid="473" />
     </global-instances>
     <sounds-folder />
     <music-folder />
