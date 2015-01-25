@@ -83,6 +83,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Destroy" sid="1894064459580524" type="pontuacao_da_fase" />
+                        <action id="-26" name="Restart layout" sid="6649786648568957" type="System" />
                     </actions>
                 </event-block>
             </sub-events>

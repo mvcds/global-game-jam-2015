@@ -105,6 +105,7 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action behavior="Fade" id="1" name="Start fade" sid="7667351157585291" type="Fade" />
                         <action id="-26" name="Restart layout" sid="2353203388178733" type="System" />
                     </actions>
                 </event-block>

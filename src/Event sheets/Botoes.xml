@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Botoes</name>
     <events>
+        <include>Music</include>
         <event-block sid="2518019881772974">
             <conditions>
                 <condition id="0" name="On click" sid="1638646544905293" type="Mouse">

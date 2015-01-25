@@ -10,6 +10,8 @@
     <unique-id>36uv9f0yxplh</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Rex.Rainbow" id="Rex_Pause" version="1">Pause</plugin>
@@ -20,6 +22,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
@@ -570,6 +573,25 @@
         <object-type name="GoMenu" sid="2835773369884906">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Audio" sid="4236386622846405">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Fade" sid="2158171500119916">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="1576094183192685">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9950128191951803" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="MusicaDic" sid="3228955628086829">
+            <plugin id="Dictionary" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -592,14 +614,43 @@
         <event-sheet>Poder.xml</event-sheet>
         <event-sheet>Botoes.xml</event-sheet>
         <event-sheet>GameFlow.xml</event-sheet>
+        <event-sheet>Music.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="700" />
         <global-instance type="Keyboard" uid="701" />
         <global-instance type="Pause" uid="251" />
+        <global-instance type="Audio" uid="736">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>Music only</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
-    <music-folder />
+    <music-folder>
+        <file name="010.ogg" />
+        <file name="011.ogg" />
+        <file name="012.ogg" />
+        <file name="013.ogg" />
+        <file name="014.ogg" />
+        <file name="015.ogg" />
+        <file name="1.ogg" />
+        <file name="3.ogg" />
+        <file name="4.ogg" />
+        <file name="7.ogg" />
+        <file name="8.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
