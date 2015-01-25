@@ -57,7 +57,7 @@
                             <param id="0" name="Folder">0</param>
                             <param id="1" name="Audio file name">MusicaDic.Get(LayoutName)</param>
                             <param id="3" name="Loop">1</param>
-                            <param id="4" name="Volume">0</param>
+                            <param id="4" name="Volume">5</param>
                             <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -70,9 +70,9 @@
             </conditions>
             <actions>
                 <action id="25" name="Play at object" sid="8743760377054207" type="Audio">
-                    <param id="0" name="Audio file">Drawer</param>
+                    <param id="0" name="Audio file">Drawer_short</param>
                     <param id="1" name="Loop">0</param>
-                    <param id="2" name="Volume">1</param>
+                    <param id="2" name="Volume">-10</param>
                     <param id="3" name="Object">2Caixa</param>
                     <param id="4" name="Inner angle">360</param>
                     <param id="5" name="Outer angle">360</param>

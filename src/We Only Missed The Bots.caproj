@@ -647,7 +647,9 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Drawer_short.ogg" />
+    </sounds-folder>
     <music-folder>
         <file name="010.ogg" />
         <file name="011.ogg" />
