@@ -567,39 +567,6 @@
         <object-type name="Pause" sid="5114067891637495">
             <plugin id="Rex_Pause" />
         </object-type>
-        <object-type name="1Personagem2" sid="1353149118035345">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="vida" sid="8172503375951367" type="number" />
-                <instance-variable name="Detectado" sid="7521980178214347" type="boolean" />
-                <instance-variable name="vidaMax" sid="4409779853881827" type="number" />
-                <instance-variable name="bonus_por_tempo" sid="6684206617095024" type="number" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="Pathfinding" sid="7818441635283887">
-                    <behavior id="Pathfinding" />
-                </behavior-type>
-                <behavior-type name="8Direction" sid="3021175926752716">
-                    <behavior id="EightDir" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1484098594929079" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Yara\Pictures\GGJ\Rebeca\arte\menino\direita.png">
-                        <collision-poly>
-                            <point x="0.25" y="0.25" />
-                            <point x="0.5" y="0.09375" />
-                            <point x="0.6875" y="0.3125" />
-                            <point x="0.65625" y="0.5" />
-                            <point x="0.625" y="0.625" />
-                            <point x="0.5" y="0.9375" />
-                            <point x="0.25" y="0.75" />
-                            <point x="0.15625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="GoMenu" sid="2835773369884906">
             <plugin id="Text" />
         </object-type>
