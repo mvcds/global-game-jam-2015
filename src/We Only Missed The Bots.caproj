@@ -34,6 +34,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>Menu Inicial</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -574,6 +575,7 @@
         <layout>Fase002.xml</layout>
         <layout>FaseMedia.xml</layout>
         <layout>Tutorial.xml</layout>
+        <layout>Menu Inicial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Caixa.xml</event-sheet>
