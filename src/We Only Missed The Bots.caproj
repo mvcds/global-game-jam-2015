@@ -650,6 +650,8 @@
         <file name="4.ogg" />
         <file name="7.ogg" />
         <file name="8.ogg" />
+        <file name="Drawer.ogg" />
+        <file name="MaleGrunt.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

@@ -18,7 +18,7 @@
                     <actions>
                         <action id="0" name="Add key" sid="1887846932681561" type="MusicaDic">
                             <param id="0" name="Key">&quot;Menu Inicial&quot;</param>
-                            <param id="1" name="Value">&quot;04&quot;</param>
+                            <param id="1" name="Value">&quot;4&quot;</param>
                         </action>
                         <action id="0" name="Add key" sid="3543310607566821" type="MusicaDic">
                             <param id="0" name="Key">&quot;Tutorial&quot;</param>
@@ -63,6 +63,23 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="2086055493521961">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="1155872674290264" type="2Caixa" />
+            </conditions>
+            <actions>
+                <action id="25" name="Play at object" sid="8743760377054207" type="Audio">
+                    <param id="0" name="Audio file">Drawer</param>
+                    <param id="1" name="Loop">0</param>
+                    <param id="2" name="Volume">1</param>
+                    <param id="3" name="Object">2Caixa</param>
+                    <param id="4" name="Inner angle">360</param>
+                    <param id="5" name="Outer angle">360</param>
+                    <param id="6" name="Outer gain">0</param>
+                    <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
