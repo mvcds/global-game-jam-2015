@@ -158,7 +158,17 @@
                         </action>
                         <action id="-12" name="Subtract from" sid="6959247841502563" type="1Personagem">
                             <param id="0" name="Instance variable">vida</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="9839661675146807" type="Audio">
+                            <param id="0" name="Audio file">MaleGrunt</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">1</param>
+                            <param id="3" name="Object">1Personagem</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -198,7 +208,17 @@
                     <actions>
                         <action id="-12" name="Subtract from" sid="6485546716129279" type="1Personagem">
                             <param id="0" name="Instance variable">vida</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="5801119965345176" type="Audio">
+                            <param id="0" name="Audio file">MaleGrunt</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">1</param>
+                            <param id="3" name="Object">1Personagem</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-9" name="Destroy" sid="5123586796666002" type="13Projetil" />
                     </actions>
@@ -244,7 +264,17 @@
                         </action>
                         <action id="-12" name="Subtract from" sid="3196238965397266" type="1Personagem">
                             <param id="0" name="Instance variable">vida</param>
-                            <param id="1" name="Value">10</param>
+                            <param id="1" name="Value">15</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="6860374803150352" type="Audio">
+                            <param id="0" name="Audio file">MaleGrunt</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">1</param>
+                            <param id="3" name="Object">1Personagem</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
