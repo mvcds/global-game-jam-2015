@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="tutorial_854x" uid="586">
+                <instance type="tutorial_854x" uid="695">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botão_start" uid="587">
+                <instance type="botão_start" uid="696">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -76,11 +76,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="588">
+                <instance type="Start" uid="702">
                     <properties>
-                        <text>Start</text>
+                        <text>Play</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16,400,0</font>
+                        <font>Arial,-19,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>

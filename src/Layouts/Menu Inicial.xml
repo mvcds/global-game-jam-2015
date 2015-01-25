@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="menuInicial" uid="589">
+                <instance type="menuInicial" uid="697">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botão_start" uid="590">
+                <instance type="botão_start" uid="698">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -64,8 +64,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>479</x>
-                        <y>325</y>
+                        <x>476</x>
+                        <y>327</y>
                         <z>0</z>
                         <width>128</width>
                         <height>64</height>
@@ -76,11 +76,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="591">
+                <instance type="Start" uid="699">
                     <properties>
-                        <text>Start</text>
+                        <text>Play</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,400,0</font>
+                        <font>Arial,-19,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -91,8 +91,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>479</x>
-                        <y>325</y>
+                        <x>476</x>
+                        <y>327</y>
                         <z>0</z>
                         <width>128</width>
                         <height>64</height>
@@ -103,7 +103,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="botão_start" uid="592">
+                <instance type="botão_start" uid="703">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -116,8 +116,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>482</x>
-                        <y>395</y>
+                        <x>476</x>
+                        <y>406</y>
                         <z>0</z>
                         <width>128</width>
                         <height>64</height>
@@ -128,11 +128,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="593">
+                <instance type="Start" uid="704">
                     <properties>
-                        <text>Instructions</text>
+                        <text>Tutorial</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,400,0</font>
+                        <font>Arial,-19,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -143,8 +143,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>482</x>
-                        <y>395</y>
+                        <x>476</x>
+                        <y>406</y>
                         <z>0</z>
                         <width>128</width>
                         <height>64</height>
