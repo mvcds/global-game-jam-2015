@@ -67,6 +67,7 @@
         <event-block sid="2086055493521961">
             <conditions>
                 <condition behavior="8Direction" id="0" name="Is moving" sid="1155872674290264" type="2Caixa" />
+                <condition behavior="8Direction" id="0" name="Is moving" sid="9836326592201445" type="14Caixa1" />
             </conditions>
             <actions>
                 <action id="25" name="Play at object" sid="8743760377054207" type="Audio">
@@ -74,6 +75,16 @@
                     <param id="1" name="Loop">0</param>
                     <param id="2" name="Volume">-14</param>
                     <param id="3" name="Object">2Caixa</param>
+                    <param id="4" name="Inner angle">360</param>
+                    <param id="5" name="Outer angle">360</param>
+                    <param id="6" name="Outer gain">0</param>
+                    <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="25" name="Play at object" sid="7496320733381364" type="Audio">
+                    <param id="0" name="Audio file">Drawer_short</param>
+                    <param id="1" name="Loop">0</param>
+                    <param id="2" name="Volume">-14</param>
+                    <param id="3" name="Object">14Caixa1</param>
                     <param id="4" name="Inner angle">360</param>
                     <param id="5" name="Outer angle">360</param>
                     <param id="6" name="Outer gain">0</param>

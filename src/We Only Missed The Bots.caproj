@@ -610,8 +610,8 @@
         <layout>Menu Inicial.xml</layout>
         <layout>Fase001.xml</layout>
         <layout>Fase002.xml</layout>
-        <layout>Fase003.xml</layout>
         <layout>Fase004.xml</layout>
+        <layout>Fase003.xml</layout>
         <layout>Fase005.xml</layout>
     </layout-folder>
     <event-folder>
