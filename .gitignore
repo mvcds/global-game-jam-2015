@@ -8,5 +8,4 @@
 /trials/Unity/Library/*.db
 /trials/Unity/Library/metadata
 *.uistate.xml
-*/*.uistate.xml
-*/*/*.uistate.xml
+*.capx.backup1
