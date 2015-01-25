@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Fundo" uid="205">
+                <instance type="Fundo" uid="591">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -49,7 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Fundo" uid="206">
+                <instance type="Fundo" uid="592">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -69,7 +69,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6Parede" uid="207">
+                <instance type="6Parede" uid="593">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -98,7 +98,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6Parede" uid="208">
+                <instance type="6Parede" uid="594">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -127,7 +127,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6Parede" uid="209">
+                <instance type="6Parede" uid="595">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -156,7 +156,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="6Parede" uid="216">
+                <instance type="6Parede" uid="596">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -185,7 +185,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBorda" uid="228">
+                <instance type="BarraBorda" uid="597">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -207,7 +207,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraFundo" uid="229">
+                <instance type="BarraFundo" uid="598">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraCheia" uid="230">
+                <instance type="BarraCheia" uid="599">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -273,7 +273,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="1Personagem" uid="231">
+                <instance type="1Personagem" uid="600">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -316,7 +316,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="236">
+                <instance type="2Caixa" uid="601">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -356,7 +356,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="242">
+                <instance type="2Caixa" uid="602">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -396,7 +396,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="246">
+                <instance type="2Caixa" uid="603">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -436,7 +436,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="254">
+                <instance type="2Caixa" uid="604">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -476,7 +476,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="3Saida" uid="255">
+                <instance type="3Saida" uid="605">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -498,7 +498,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="8Overlap" uid="256">
+                <instance type="8Overlap" uid="606">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -520,7 +520,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="7Jogador" uid="257">
+                <instance type="7Jogador" uid="607">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -560,7 +560,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="259">
+                <instance type="14Caixa1" uid="608">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -606,7 +606,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="263">
+                <instance type="2Caixa" uid="609">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -646,7 +646,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="264">
+                <instance type="2Caixa" uid="610">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -686,7 +686,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="265">
+                <instance type="2Caixa" uid="611">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -726,7 +726,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="266">
+                <instance type="2Caixa" uid="612">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -766,7 +766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="268">
+                <instance type="14Caixa1" uid="613">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -812,7 +812,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="269">
+                <instance type="14Caixa1" uid="614">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -858,7 +858,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="270">
+                <instance type="14Caixa1" uid="615">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -904,7 +904,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="271">
+                <instance type="14Caixa1" uid="616">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -950,7 +950,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="273">
+                <instance type="14Caixa1" uid="617">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -996,7 +996,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="274">
+                <instance type="14Caixa1" uid="618">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1042,7 +1042,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="275">
+                <instance type="14Caixa1" uid="619">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1088,7 +1088,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="276">
+                <instance type="14Caixa1" uid="620">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1134,7 +1134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="277">
+                <instance type="14Caixa1" uid="621">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1180,7 +1180,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="278">
+                <instance type="14Caixa1" uid="622">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1226,7 +1226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="279">
+                <instance type="14Caixa1" uid="623">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1272,7 +1272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="280">
+                <instance type="14Caixa1" uid="624">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1318,7 +1318,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="281">
+                <instance type="14Caixa1" uid="625">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1364,7 +1364,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="282">
+                <instance type="14Caixa1" uid="626">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1410,7 +1410,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="283">
+                <instance type="14Caixa1" uid="627">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1456,7 +1456,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="284">
+                <instance type="14Caixa1" uid="628">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1502,7 +1502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="285">
+                <instance type="14Caixa1" uid="629">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1548,7 +1548,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="286">
+                <instance type="14Caixa1" uid="630">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1594,7 +1594,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="287">
+                <instance type="14Caixa1" uid="631">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1640,7 +1640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="288">
+                <instance type="14Caixa1" uid="632">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1686,7 +1686,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="289">
+                <instance type="14Caixa1" uid="633">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1732,7 +1732,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="290">
+                <instance type="14Caixa1" uid="634">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1778,7 +1778,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="291">
+                <instance type="14Caixa1" uid="635">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1824,7 +1824,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="292">
+                <instance type="14Caixa1" uid="636">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1870,7 +1870,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="293">
+                <instance type="14Caixa1" uid="637">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1916,7 +1916,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="294">
+                <instance type="14Caixa1" uid="638">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1962,7 +1962,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="295">
+                <instance type="14Caixa1" uid="639">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2008,7 +2008,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="296">
+                <instance type="14Caixa1" uid="640">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2054,7 +2054,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="297">
+                <instance type="14Caixa1" uid="641">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2100,7 +2100,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="298">
+                <instance type="Spawner" uid="642">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2142,7 +2142,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="302">
+                <instance type="Spawner" uid="643">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2184,7 +2184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="303">
+                <instance type="Spawner" uid="644">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2226,7 +2226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="304">
+                <instance type="Spawner" uid="645">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2268,7 +2268,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="305">
+                <instance type="14Caixa1" uid="646">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2314,7 +2314,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="306">
+                <instance type="14Caixa1" uid="647">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2360,7 +2360,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="307">
+                <instance type="14Caixa1" uid="648">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2406,7 +2406,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="272">
+                <instance type="14Caixa1" uid="649">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2452,7 +2452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="309">
+                <instance type="14Caixa1" uid="650">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2498,7 +2498,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="310">
+                <instance type="14Caixa1" uid="651">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2544,7 +2544,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="311">
+                <instance type="14Caixa1" uid="652">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2590,7 +2590,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="312">
+                <instance type="14Caixa1" uid="653">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2636,7 +2636,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="313">
+                <instance type="14Caixa1" uid="654">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2682,7 +2682,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="314">
+                <instance type="14Caixa1" uid="655">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2728,7 +2728,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="315">
+                <instance type="14Caixa1" uid="656">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2774,7 +2774,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="316">
+                <instance type="14Caixa1" uid="657">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2820,7 +2820,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="317">
+                <instance type="14Caixa1" uid="658">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2866,7 +2866,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="318">
+                <instance type="14Caixa1" uid="659">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2912,7 +2912,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="319">
+                <instance type="Spawner" uid="660">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2954,7 +2954,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="320">
+                <instance type="14Caixa1" uid="661">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3000,7 +3000,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="321">
+                <instance type="14Caixa1" uid="662">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3046,7 +3046,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="322">
+                <instance type="14Caixa1" uid="663">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3092,7 +3092,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="324">
+                <instance type="14Caixa1" uid="664">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3138,7 +3138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="325">
+                <instance type="14Caixa1" uid="665">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3184,7 +3184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="326">
+                <instance type="14Caixa1" uid="666">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3230,7 +3230,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="327">
+                <instance type="14Caixa1" uid="667">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3276,7 +3276,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="323">
+                <instance type="2Caixa" uid="668">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3316,7 +3316,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="328">
+                <instance type="2Caixa" uid="669">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3356,7 +3356,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="232">
+                <instance type="2Caixa" uid="670">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3396,7 +3396,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="233">
+                <instance type="2Caixa" uid="671">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3436,7 +3436,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="234">
+                <instance type="2Caixa" uid="672">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3476,7 +3476,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="235">
+                <instance type="2Caixa" uid="673">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3516,7 +3516,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="258">
+                <instance type="2Caixa" uid="674">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3556,7 +3556,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="260">
+                <instance type="2Caixa" uid="675">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3596,7 +3596,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="261">
+                <instance type="2Caixa" uid="676">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3636,7 +3636,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="262">
+                <instance type="2Caixa" uid="677">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3676,7 +3676,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="299">
+                <instance type="14Caixa1" uid="678">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3722,7 +3722,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="300">
+                <instance type="14Caixa1" uid="679">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3768,7 +3768,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="301">
+                <instance type="2Caixa" uid="680">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3808,7 +3808,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="329">
+                <instance type="Spawner" uid="681">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3850,7 +3850,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="330">
+                <instance type="Spawner" uid="682">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3892,7 +3892,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="308">
+                <instance type="14Caixa1" uid="683">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3938,7 +3938,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="14Caixa1" uid="331">
+                <instance type="14Caixa1" uid="684">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3984,7 +3984,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="2Caixa" uid="267">
+                <instance type="2Caixa" uid="685">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4024,7 +4024,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spawner" uid="332">
+                <instance type="Spawner" uid="686">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4066,20 +4066,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnPirata" uid="124">
+                <instance type="SpawnPirata" uid="687">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4095,20 +4088,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnPirata" uid="125">
+                <instance type="SpawnPirata" uid="688">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4124,20 +4110,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnPirata" uid="126">
+                <instance type="SpawnPirata" uid="689">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4153,20 +4132,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnPirata" uid="127">
+                <instance type="SpawnPirata" uid="690">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4182,20 +4154,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnPirata" uid="128">
+                <instance type="SpawnPirata" uid="691">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4211,20 +4176,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnAlien" uid="129">
+                <instance type="SpawnAlien" uid="692">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4240,20 +4198,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnZumbi" uid="130">
+                <instance type="SpawnZumbi" uid="693">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4269,20 +4220,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SpawnZumbi" uid="131">
+                <instance type="SpawnZumbi" uid="694">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

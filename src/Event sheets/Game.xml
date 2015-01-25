@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game</name>
     <events>
+        <variable constant="0" name="isPaused" sid="2910647955044424" static="0" type="number">0</variable>
         <include>HUD</include>
         <include>Personagem</include>
         <include>Inimigo</include>

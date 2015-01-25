@@ -18,7 +18,7 @@
                 <action id="-9" name="Destroy" sid="8381046565746583" type="15SetaD" />
             </actions>
         </event-block>
-        <event-group description="" sid="185757133383009" title="Caixa Livre" />
+        <comment>Caixa Livre</comment>
         <event-block sid="2800152210744521">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="438570921978875" type="8Overlap">
@@ -93,7 +93,7 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-group description="" sid="2841729676682032" title="Caixa Uma Direção" />
+        <comment>Caixa Direcionada</comment>
         <event-block sid="8216785701007932">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="9232042314118813" type="8Overlap">
